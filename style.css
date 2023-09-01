@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    padding: 2em;
+    background-color: #ffffff;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    color: black;
+    gap: 2em;
+
+}
+
+.container {
+    width: 40em;
+    height: 50em;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: lightpink;
+    border-radius: 0.5em;
+}
+
+.item {
+    display: grid;
+    gap: 1em;
+}
+
+.numeros {
+    flex-grow: 1;
+    padding: 0px 8px;
+}
+
+.numeros span {
+    background-color: plum;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.button {
+    background: lightyellow;
+    border: 1px solid lightgoldenrodyellow;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: lightyellow;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button:hover,
+.button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: lightyellow;
+}
+
+.button:active {
+    opacity: .5;
+}
+
+input {
+    height: 2em;
+    width: 19.5em;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
