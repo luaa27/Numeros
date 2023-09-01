@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 36px;
+    background-image: linear-gradient(to right bottom, rgb(0,0,0, 0.7), rgb(0,0,0,0.5)), url("https://i.pinimg.com/564x/a1/69/d1/a169d153d5fa0562160ebf9817f3362e.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(147, 204, 206);
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 32px;    
+    gap: 64px;
+}
+
+.itensIndiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 90%;
+}
+
+.item{
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 90%;
+    padding-inline: 32px;
+    gap: 24px;
+    font-weight: 700;
+}
+
+button{
+    color: whitesmoke;
+    cursor: pointer;
+    background-color:lightseagreen;
+    padding: 2px 6px;
+    border: none;
+    width: auto;
+    padding-inline: 12px;
+    height: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.result, input{
+    width: 150px;
+    height: 40%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    padding-inline: 4px;
+    border: none;
+    border-radius: 2px;
+}
+
+h1{
+    color: whitesmoke;
+    background-color: lightseagreen;
+    font-size: xx-large;
+}
+
+h2{
+    color: whitesmoke;
+    background-color: lightseagreen;
+    font-size: xx-large;
+}
